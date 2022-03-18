@@ -1,4 +1,4 @@
-export const RegularList = ({
+export const MyRegularList = ({
 	items,
 	resourceName,
 	itemComponent: ItemComponent,
