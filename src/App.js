@@ -1,11 +1,17 @@
 import { CurrentUserLoader } from "./CurrentUserLoader";
 import { UserInfo } from "./UserInfo";
+import { UserLoader } from "./UserLoader";
 
 function App() {
 	return (
-		<CurrentUserLoader>
-			<UserInfo />
-		</CurrentUserLoader>
+		<>
+			<UserLoader userId={1}>
+				<UserInfo />
+			</UserLoader>
+			<UserLoader userId={2}>
+				<UserInfo />
+			</UserLoader>
+		</>
 	);
 }
 
