@@ -1,4 +1,4 @@
-import { printProps } from "./PrintingProps";
+import { printProps } from "./printProps";
 import { UserInfo } from "./UserInfo";
 
 const UserInfoWrapped = printProps(UserInfo)
