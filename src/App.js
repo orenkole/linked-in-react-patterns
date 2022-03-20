@@ -1,3 +1,5 @@
+import { RecursiveComponent } from "./RecursiveComponent";
+
 const nestedObject = {
 	a: 1,
 	b: {
@@ -22,7 +24,7 @@ const nestedObject = {
 
 function App() {
 	return (
-		<h1>Your code goes here</h1>
+		<RecursiveComponent data={nestedObject} />
 	);
 }
 
