@@ -1,11 +1,8 @@
-import { UserInfo } from "./UserInfo";
-import { withUser } from "./withUser";
-
-const UserInfoWithLoader = withUser(UserInfo, '234');
+import { UserInfoForm } from "./UserInfoForm";
 
 function App() {
 	return (
-		<UserInfoWithLoader />
+		<UserInfoForm />
 	);
 }
 
