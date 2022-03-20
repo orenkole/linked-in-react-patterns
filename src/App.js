@@ -2,7 +2,7 @@ import { UserInfo } from "./UserInfo";
 
 function App() {
 	return (
-		<UserInfo />
+		<UserInfo userId="123" />
 	);
 }
 
